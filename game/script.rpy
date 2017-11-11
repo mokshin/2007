@@ -1,11 +1,10 @@
 define t = Character("Тян")
+image test happy = "test.png"
 
 label start:
 
-    scene bg room
+    show test happy at center
 
-    show eileen happy
-
-    t "Проект успешно запущен."
+    t "Че пацаны аниме?"
 
     return
